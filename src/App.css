@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.header{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right:20px;
+}
+.logo{
+    position: absolute;                                          
+
+}
+.logo img{
+    cursor: pointer;
+}
+.bar{
+   margin-left: auto;
+}
+.shopping{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.cat-div{
+    display:flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding: 5px;
+}
+.d1{
+    font-size: medium;
+    cursor: pointer;
+}
+.f-images{
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 65% 35%;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imge img{
+    width: 100%;
+    height: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imge2 img{
+    width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.secpart-div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
-
-.App-link {
-  color: #61dafb;
+.secpart-div img{
+    width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secpart-img{
+    text-align: center;
+}
+.secpart-img a{
+    margin: 100px 0;
+    color: black;
+}
+.secpart{
+    display: grid;
+    grid-template-columns: auto 110%;
+    gap: 100px;
+}
+a{
+    color: #1c1c1c;
 }

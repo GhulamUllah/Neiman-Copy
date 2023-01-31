@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { Typography} from '@mui/material'
 
+import Nonauth from './components/header/nonauth';
+import Category from './components/category';
+import Mainpage from './components/mainpage';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='update' style={{background:'black',width:'100%',color:'#fff', textAlign:'center', padding:3}}>
+        <Typography sx={{fontWeight:'bolder'}}>The New Neiman Marcus app is here! Discover Now</Typography>
+      </div>
+      <Nonauth/>
+      <Category/>
+      <Mainpage/>
     </div>
   );
 }
