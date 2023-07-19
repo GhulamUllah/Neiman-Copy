@@ -1,8 +1,9 @@
 import { Typography } from '@mui/material'
 import React from 'react'
+import Thirdpart from './thirdpart'
 
 export default function Secpart() {
-  return (
+  return (<>
     <div className='secpart'>
       <div>
       <Typography  sx={{fontWeight:'bold', textTransform:'uppercase', mb:1}}>New Looks Just Added</Typography>
@@ -26,6 +27,8 @@ export default function Secpart() {
     </div>
     
 </div>
+
     </div>
+    </>
   )
 }

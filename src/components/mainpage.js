@@ -12,8 +12,8 @@ export default function Mainpage() {
             <img src='https://res.cloudinary.com/nmg-prod/image/upload/f_auto/cs_srgb,q_auto:good/v1674488897/content/marketing/r_HP_Womens_1b_Louboutin_012523.jpg' alt=''/>
         </div>
         <Secpart/>
-
     </div>
+
         </>
   )
 }
